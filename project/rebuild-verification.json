@@ -1,0 +1,25 @@
+{
+  "file": "build/yohaku-travel-final.mp4",
+  "bytes": 24333801,
+  "frames": 1440,
+  "duration_seconds": 60,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "full_decode": "passed",
+  "sha256": "0b423c4247dad22cc3a1625c1de8ae371d537126753038fe0a1490101509ed6e",
+  "ffmpeg_version": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "verification_date": "2026-10-04",
+  "method": "Fresh git clone --no-local, rebuild using repository assets and scripts only",
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "approved_file": "dist/yohaku-travel-final.mp4",
+  "approved_sha256": "0b423c4247dad22cc3a1625c1de8ae371d537126753038fe0a1490101509ed6e",
+  "matches_approved_file_byte_for_byte": true,
+  "asset_hashes": "all passed",
+  "external_media_dependencies": false,
+  "used_source_videos": 8,
+  "used_still_images": 2,
+  "unused_binary_assets": 0
+}

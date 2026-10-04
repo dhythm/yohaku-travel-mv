@@ -1,0 +1,512 @@
+{
+  "brand": "余白旅行",
+  "tagline": "何もしない、をしに行こう。",
+  "duration": 60,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "palette": {
+    "paper": "#faf6ec",
+    "ink": "#133d3a"
+  },
+  "videos": {
+    "V01": {
+      "file": "assets/video/V01.mp4",
+      "label": "日常・オフィス",
+      "original_filename": "Woman_relaxing_at_desk_20261004213310_4.mp4"
+    },
+    "V02": {
+      "file": "assets/video/V02.mp4",
+      "label": "扉から海へ",
+      "original_filename": "Woman_opening_door_to_sea_20261004213310_2.mp4"
+    },
+    "V03": {
+      "file": "assets/video/V03.mp4",
+      "label": "海を眺める",
+      "original_filename": "Woman_looking_at_ocean_20261004213310_2.mp4"
+    },
+    "V04": {
+      "file": "assets/video/V04.mp4",
+      "label": "森を歩く",
+      "original_filename": "Woman_walking_in_forest_20261004213310_2.mp4"
+    },
+    "V05": {
+      "file": "assets/video/V05.mp4",
+      "label": "宿の窓辺",
+      "original_filename": "Woman_gazing_at_sea_20261004213310_2.mp4"
+    },
+    "V06": {
+      "file": "assets/video/V06.mp4",
+      "label": "夕暮れの海",
+      "original_filename": "Woman_sitting_viewing_ocean_20261004213310.mp4"
+    },
+    "V07": {
+      "file": "assets/video/V07.mp4",
+      "label": "海辺の宿・外観",
+      "original_filename": "Seaside_lodge_video_production_20261004213310_3.mp4"
+    },
+    "V08": {
+      "file": "assets/video/V08.mp4",
+      "label": "森の宿・外観",
+      "original_filename": "Forest_lodge_morning_light_video_20261004213310_3.mp4"
+    }
+  },
+  "stills": {
+    "07_lodge_still": "assets/stills/07_lodge_still.png",
+    "13_coffee_detail": "assets/stills/13_coffee_detail.png"
+  },
+  "graphics": {
+    "office_bg": "assets/graphics/office_bg.png",
+    "office_question_bg": "assets/graphics/office_question_bg.png",
+    "question_bg": "assets/graphics/question_bg.png",
+    "door_bg": "assets/graphics/door_bg.png",
+    "coast_bg": "assets/graphics/coast_bg.png",
+    "stay_bg": "assets/graphics/stay_bg.png",
+    "tag_bg": "assets/graphics/tag_bg.png",
+    "sunset_bg": "assets/graphics/sunset_bg.png",
+    "service_bg": "assets/graphics/service_bg.png",
+    "end_bg": "assets/graphics/end_bg.png"
+  },
+  "static_type": {
+    "service_forest": "assets/graphics/service_forest.png"
+  },
+  "motion": {
+    "office_type_a": {
+      "base": "assets/graphics/parts/office_type_a_base.png",
+      "parts": [
+        {
+          "file": "assets/graphics/parts/office_type_a_1.png",
+          "x": 64,
+          "y": 1288,
+          "width": 952,
+          "height": 166,
+          "start": 0.2,
+          "fade_seconds": 0.55,
+          "rise_pixels": 12
+        }
+      ]
+    },
+    "office_type_b": {
+      "base": "assets/graphics/parts/office_type_b_base.png",
+      "parts": [
+        {
+          "file": "assets/graphics/parts/office_type_b_1.png",
+          "x": 64,
+          "y": 1230,
+          "width": 952,
+          "height": 152,
+          "start": 0.15,
+          "fade_seconds": 0.45,
+          "rise_pixels": 12
+        },
+        {
+          "file": "assets/graphics/parts/office_type_b_2.png",
+          "x": 60,
+          "y": 1398,
+          "width": 956,
+          "height": 156,
+          "start": 0.68,
+          "fade_seconds": 0.5,
+          "rise_pixels": 12
+        }
+      ]
+    },
+    "question_type": {
+      "base": "assets/graphics/parts/question_type_base.png",
+      "parts": [
+        {
+          "file": "assets/graphics/parts/question_type_1.png",
+          "x": 96,
+          "y": 706,
+          "width": 904,
+          "height": 141,
+          "start": 0.15,
+          "fade_seconds": 0.5,
+          "rise_pixels": 12
+        },
+        {
+          "file": "assets/graphics/parts/question_type_2.png",
+          "x": 96,
+          "y": 858,
+          "width": 904,
+          "height": 139,
+          "start": 0.72,
+          "fade_seconds": 0.5,
+          "rise_pixels": 12
+        },
+        {
+          "file": "assets/graphics/parts/question_type_3.png",
+          "x": 92,
+          "y": 1040,
+          "width": 896,
+          "height": 160,
+          "start": 1.35,
+          "fade_seconds": 0.55,
+          "rise_pixels": 12
+        }
+      ]
+    },
+    "door_type": {
+      "base": "assets/graphics/parts/door_type_base.png",
+      "parts": [
+        {
+          "file": "assets/graphics/parts/door_type_1.png",
+          "x": 64,
+          "y": 232,
+          "width": 952,
+          "height": 139,
+          "start": 0.22,
+          "fade_seconds": 0.55,
+          "rise_pixels": 12
+        },
+        {
+          "file": "assets/graphics/parts/door_type_2.png",
+          "x": 64,
+          "y": 373,
+          "width": 952,
+          "height": 150,
+          "start": 0.9,
+          "fade_seconds": 0.55,
+          "rise_pixels": 12
+        }
+      ]
+    },
+    "coast_type": {
+      "base": "assets/graphics/parts/coast_type_base.png",
+      "parts": [
+        {
+          "file": "assets/graphics/parts/coast_type_1.png",
+          "x": 64,
+          "y": 240,
+          "width": 952,
+          "height": 187,
+          "start": 0.22,
+          "fade_seconds": 0.55,
+          "rise_pixels": 12
+        },
+        {
+          "file": "assets/graphics/parts/coast_type_2.png",
+          "x": 60,
+          "y": 1530,
+          "width": 960,
+          "height": 113,
+          "start": 1.12,
+          "fade_seconds": 0.65,
+          "rise_pixels": 10
+        },
+        {
+          "file": "assets/graphics/parts/coast_type_3.png",
+          "x": 60,
+          "y": 1634,
+          "width": 960,
+          "height": 133,
+          "start": 1.78,
+          "fade_seconds": 0.65,
+          "rise_pixels": 10
+        }
+      ]
+    },
+    "stay_type": {
+      "base": "assets/graphics/parts/stay_type_base.png",
+      "parts": [
+        {
+          "file": "assets/graphics/parts/stay_type_1.png",
+          "x": 64,
+          "y": 1424,
+          "width": 952,
+          "height": 141,
+          "start": 0.22,
+          "fade_seconds": 0.55,
+          "rise_pixels": 12
+        },
+        {
+          "file": "assets/graphics/parts/stay_type_2.png",
+          "x": 64,
+          "y": 1585,
+          "width": 952,
+          "height": 143,
+          "start": 0.94,
+          "fade_seconds": 0.55,
+          "rise_pixels": 12
+        }
+      ]
+    },
+    "tag_type": {
+      "base": "assets/graphics/parts/tag_type_base.png",
+      "parts": [
+        {
+          "file": "assets/graphics/parts/tag_type_1.png",
+          "x": 80,
+          "y": 470,
+          "width": 936,
+          "height": 140,
+          "start": 0.2,
+          "fade_seconds": 0.55,
+          "rise_pixels": 12
+        },
+        {
+          "file": "assets/graphics/parts/tag_type_2.png",
+          "x": 88,
+          "y": 631,
+          "width": 928,
+          "height": 169,
+          "start": 0.96,
+          "fade_seconds": 0.6,
+          "rise_pixels": 12
+        }
+      ]
+    },
+    "sunset_type": {
+      "base": "assets/graphics/parts/sunset_type_base.png",
+      "parts": [
+        {
+          "file": "assets/graphics/parts/sunset_type_1.png",
+          "x": 64,
+          "y": 1626,
+          "width": 952,
+          "height": 129,
+          "start": 0.25,
+          "fade_seconds": 0.7,
+          "rise_pixels": 8
+        }
+      ]
+    },
+    "service_sea": {
+      "base": "assets/graphics/parts/service_sea_base.png",
+      "parts": [
+        {
+          "file": "assets/graphics/parts/service_sea_1.png",
+          "x": 74,
+          "y": 210,
+          "width": 928,
+          "height": 95,
+          "start": 0.18,
+          "fade_seconds": 0.55,
+          "rise_pixels": 10
+        },
+        {
+          "file": "assets/graphics/parts/service_sea_2.png",
+          "x": 74,
+          "y": 325,
+          "width": 928,
+          "height": 98,
+          "start": 0.82,
+          "fade_seconds": 0.55,
+          "rise_pixels": 10
+        }
+      ]
+    },
+    "end_type": {
+      "base": "assets/graphics/parts/end_type_base.png",
+      "parts": [
+        {
+          "file": "assets/graphics/parts/end_type_1.png",
+          "x": 150,
+          "y": 996,
+          "width": 790,
+          "height": 129,
+          "start": 0.18,
+          "fade_seconds": 0.55,
+          "rise_pixels": 12
+        },
+        {
+          "file": "assets/graphics/parts/end_type_2.png",
+          "x": 150,
+          "y": 1132,
+          "width": 790,
+          "height": 131,
+          "start": 0.84,
+          "fade_seconds": 0.55,
+          "rise_pixels": 12
+        },
+        {
+          "file": "assets/graphics/parts/end_type_3.png",
+          "x": 245,
+          "y": 1430,
+          "width": 590,
+          "height": 150,
+          "start": 1.65,
+          "fade_seconds": 0.65,
+          "rise_pixels": 8
+        },
+        {
+          "file": "assets/graphics/parts/end_type_4.png",
+          "x": 255,
+          "y": 1614,
+          "width": 570,
+          "height": 84,
+          "start": 2.24,
+          "fade_seconds": 0.65,
+          "rise_pixels": 6
+        }
+      ]
+    }
+  },
+  "timeline": [
+    {
+      "id": "01",
+      "start": 0,
+      "end": 3,
+      "label": "週末への問い",
+      "clip": "V01",
+      "offset": 0,
+      "bg": "office_bg",
+      "type": "office_type_a"
+    },
+    {
+      "id": "02",
+      "start": 3,
+      "end": 6,
+      "label": "予定でいっぱい？",
+      "clip": "V01",
+      "offset": 3,
+      "bg": "office_question_bg",
+      "type": "office_type_b",
+      "zoom": 1.035
+    },
+    {
+      "id": "03",
+      "start": 6,
+      "end": 10,
+      "label": "空いている時間まで",
+      "type": "question_type",
+      "mode": "card",
+      "base": "question_bg"
+    },
+    {
+      "id": "04",
+      "start": 10,
+      "end": 17,
+      "label": "扉・海辺の宿・扉の終点",
+      "clip": "V02",
+      "offset": 0.8,
+      "bg": "door_bg",
+      "type": "door_type",
+      "mode": "door_edit",
+      "type_out": 3.8,
+      "fade_in": 0.2
+    },
+    {
+      "id": "05",
+      "start": 17,
+      "end": 23,
+      "label": "次の週末は",
+      "clip": "V03",
+      "offset": 0.5,
+      "bg": "coast_bg",
+      "type": "coast_type"
+    },
+    {
+      "id": "06",
+      "start": 23,
+      "end": 27,
+      "label": "予定は、空白でいい",
+      "bg": "stay_bg",
+      "type": "stay_type",
+      "mode": "stay",
+      "image": "07_lodge_still"
+    },
+    {
+      "id": "07",
+      "start": 27,
+      "end": 31,
+      "label": "森のなかで、深呼吸",
+      "clip": "V04",
+      "offset": 2
+    },
+    {
+      "id": "08",
+      "start": 31,
+      "end": 35,
+      "label": "ただ、ぼんやり",
+      "clip": "V05",
+      "offset": 1
+    },
+    {
+      "id": "09",
+      "start": 35,
+      "end": 39,
+      "label": "何もしない、をしに行こう",
+      "type": "tag_type",
+      "mode": "tag",
+      "base": "tag_bg"
+    },
+    {
+      "id": "10",
+      "start": 39,
+      "end": 44,
+      "label": "時計を、気にしない",
+      "clip": "V06",
+      "offset": 0.5,
+      "bg": "sunset_bg",
+      "type": "sunset_type",
+      "fade_in": 0.18
+    },
+    {
+      "id": "11",
+      "start": 44,
+      "end": 46,
+      "label": "時間を、味わう",
+      "zoom": 1.04,
+      "image": "13_coffee_detail"
+    },
+    {
+      "id": "12",
+      "start": 46,
+      "end": 48,
+      "label": "夕暮れの余韻",
+      "clip": "V06",
+      "offset": 7.5,
+      "zoom": 1.035
+    },
+    {
+      "id": "13",
+      "start": 48,
+      "end": 51,
+      "label": "海辺の宿",
+      "clip": "V07",
+      "offset": 0.5,
+      "bg": "service_bg",
+      "type": "service_sea",
+      "static_type": true
+    },
+    {
+      "id": "14",
+      "start": 51,
+      "end": 54,
+      "label": "森の宿",
+      "clip": "V08",
+      "offset": 0.5,
+      "bg": "service_bg",
+      "type": "service_forest",
+      "static_type": true
+    },
+    {
+      "id": "15",
+      "start": 54,
+      "end": 60,
+      "label": "余白旅行・紙飛行機のシンボル",
+      "type": "end_type",
+      "mode": "end"
+    }
+  ],
+  "audio": {
+    "score_script": "scripts/score.py",
+    "atmosphere_script": "scripts/atmosphere.py",
+    "loudnorm": "I=-18:TP=-2:LRA=9",
+    "codec": "aac",
+    "bitrate": "192k"
+  },
+  "delivery": {
+    "file": "dist/yohaku-travel-final.mp4",
+    "maximum_bytes": 25000000,
+    "video_bitrate": "3050k",
+    "codec": "h264",
+    "profile": "high",
+    "level": "4.1",
+    "pixel_format": "yuv420p",
+    "color_space": "bt709"
+  }
+}

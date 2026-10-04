@@ -1,0 +1,153 @@
+{
+  "purpose": "制作時の生成指示の記録。既存の採用素材を使う再作成では生成APIと当時の参照画像は不要。",
+  "model_requested": "Gemini Omni Flash",
+  "video_prompts": [
+    {
+      "id": "V01",
+      "title": "夜のオフィス",
+      "timeline": [
+        0,
+        6
+      ],
+      "generation_seconds": 8,
+      "method": "first_frame",
+      "inputs": [
+        "02_office_start"
+      ],
+      "reason": "人物と冒頭の構図を固定し、表情と小さな動きは生成に任せる。",
+      "prompt": "Vertical 9:16 restrained live-action Japanese travel commercial. Start exactly from the supplied office frame. Keep the same fictional woman, face, low ponytail, blue-gray rolled-sleeve shirt and beige trousers. Locked camera. She quietly lowers her gaze to the laptop, exhales with subtly tired eyes and gently lets her shoulders settle, without smiling broadly or speaking. One continuous quiet action, no typing close-up or hand gymnastics. City bokeh and desk lamp remain stable, natural cool night office palette. No text, no logo, no transitions, no music or dialogue. Gentle room tone only.",
+      "qa": "顔・服・机が変わらない。冒頭の表情は控えめに疲れた印象。"
+    },
+    {
+      "id": "V02",
+      "title": "扉の向こうに海",
+      "timeline": [
+        10,
+        17
+      ],
+      "generation_seconds": 8,
+      "method": "first_and_last_frames",
+      "inputs": [
+        "03_door_start",
+        "04_door_end"
+      ],
+      "reason": "扉・カメラ・人物の位置を固定し、終点の海の構図を指定する。",
+      "prompt": "Vertical 9:16 cinematic live-action shot, eight seconds, locked tripod. The first and final input images define the exact starting and ending frames. Preserve the same doorway, left hinges, oak door leaf, walls, lamp, tiled floor, camera lens and the woman's identity, outfit, feet position and body scale throughout. She gently opens the existing door in one physically consistent arc until it reaches exactly the supplied open-door final position, releases its handle and rests her left arm naturally. A real dawn ocean is revealed progressively behind the door. Indoor walls and floor remain stable; mild dawn light enters through the doorway. No camera motion, zoom, morphing walls, teleportation, additional doors, cuts, text, music or speech. Subtle door latch sound and distant waves.",
+      "qa": "開閉の軸が一貫。ドア・手・壁が変形しない。最後に人物が増えない。"
+    },
+    {
+      "id": "V03",
+      "title": "朝の海辺",
+      "timeline": [
+        17,
+        23
+      ],
+      "generation_seconds": 8,
+      "method": "first_frame",
+      "inputs": [
+        "06_coast_person"
+      ],
+      "reason": "人物の位置と上部の文字用余白を保つ。終了フレームは不要。",
+      "prompt": "Vertical 9:16 quiet Japanese travel advertisement. Start from this exact woman-on-beach image. Locked tripod camera. Keep the woman's identity, silhouette scale, clothing, shoes, position and the sea horizon unchanged. She slowly turns her gaze slightly toward the sea and takes a gentle breath; a light breeze softly moves the ponytail and shirt. Both feet stay planted, no walking or large gestures. Small natural waves softly break behind her, morning light stays consistent. Preserve calm uncluttered upper sky for text added separately later. No generated text, logos, speech, music or scene cuts. Soft sea ambience only.",
+      "qa": "文字用の空が維持される。顔・服・足元が安定。"
+    },
+    {
+      "id": "V04",
+      "title": "森を歩く",
+      "timeline": [
+        27,
+        31
+      ],
+      "generation_seconds": 6,
+      "method": "references",
+      "inputs": [
+        "00_character_master",
+        "08_forest_person"
+      ],
+      "reason": "人物の同一性と森の雰囲気を保ち、歩行の構図は生成に任せる。",
+      "prompt": "Create one six-second vertical 9:16 live-action shot. Reference image 1 defines the same fictional woman's identity and exact outfit: black low ponytail, blue-gray rolled-sleeve cotton shirt, sand-beige trousers, off-white sneakers. Reference image 2 defines this quiet forest path and restrained daylight atmosphere, not a required first or final frame. Rear three-quarter medium-wide view, she takes two slow natural steps away along the existing forest path and looks ahead, not into the lens. Camera gently follows with minimal movement, natural dappled daylight, realistic walking cadence. No touching leaves, no additional people, no text or logos, no music or dialogue. Gentle footsteps and leaves.",
+      "qa": "歩行・足が自然。同じ人物と衣装。顔を長く正面に見せなくてよい。"
+    },
+    {
+      "id": "V05",
+      "title": "宿の窓辺",
+      "timeline": [
+        31,
+        35
+      ],
+      "generation_seconds": 6,
+      "method": "references",
+      "inputs": [
+        "00_character_master",
+        "09_window_coffee"
+      ],
+      "reason": "同じ人物と宿の空気感をそろえる。細かな開始・終了位置は固定しない。",
+      "prompt": "Create one six-second vertical 9:16 restrained live-action film shot. Reference image 1 defines the woman's identity and outfit. Reference image 2 defines her seaside guesthouse room, sitting posture, ocean window, cream linen and pale oak. A calm medium three-quarter profile shot of this same woman seated by the window, quietly looking toward the sea, hands relaxed on her lap. Cup stays on the table and phone stays face down. Very small natural breath and curtain movement, a delicate hint of coffee steam. Nearly static camera, no drinking, no lifting cup, no finger close-up. Honest morning daylight, no generated text, logos, music or dialogue.",
+      "qa": "手を動かしすぎない。カップやスマホが増えない。"
+    },
+    {
+      "id": "V06",
+      "title": "夕暮れの余白",
+      "timeline": [
+        39,
+        48
+      ],
+      "generation_seconds": 10,
+      "method": "first_frame",
+      "inputs": [
+        "10_sunset_person"
+      ],
+      "reason": "長く見せる構図を固定し、波と風だけを中心に動かす。",
+      "prompt": "Ten-second vertical 9:16 continuous locked-tripod live-action shot, begin exactly from supplied sunset beach frame. The same woman sits quietly on this driftwood log, same outfit and pose, gently breathing and looking toward the sea. Small natural waves move and ponytail responds slightly to breeze; warm restrained dusk light stays stable with no time-lapse. Keep the horizon, framing, log, shore and body proportions unchanged. No large gesture, standing up, extra people, text, logos, cuts, camera move, music or speaking. Long restful natural sea ambience.",
+      "qa": "10秒間、人体と水平線が安定。タイムラプスにしない。"
+    },
+    {
+      "id": "V07",
+      "title": "海辺の宿・紹介",
+      "timeline": [
+        48,
+        51
+      ],
+      "generation_seconds": 4,
+      "method": "references",
+      "inputs": [
+        "11_seaside_lodge"
+      ],
+      "reason": "場所の印象を保ち、控えめなカメラの動きは任せる。",
+      "prompt": "Four-second vertical 9:16 natural editorial hospitality shot. Use supplied image as the reference for the same modest seaside guesthouse, pale wood, cream linen, ocean and calm morning light. Very gentle camera drift of less than a few percent; only distant sea and curtain move naturally. Preserve real straight architectural lines and a quiet upper sky for dark copy added later. No humans, invented signs, generated letters, logos, music or speech.",
+      "qa": "建物と窓が変形しない。上部に文字を載せられる。"
+    },
+    {
+      "id": "V08",
+      "title": "森の宿・紹介",
+      "timeline": [
+        51,
+        54
+      ],
+      "generation_seconds": 4,
+      "method": "references",
+      "inputs": [
+        "12_forest_lodge"
+      ],
+      "reason": "宿のデザインを参照し、葉と光の小さな動きを任せる。",
+      "prompt": "Four-second vertical 9:16 restrained live-action forest hospitality shot. Supplied photo is the reference for this exact modest timber forest guesthouse, terrace, large window, cedar setting and morning atmosphere. Nearly locked camera with a tiny slow push of at most a few percent. Only leaves and linen curtain move subtly in light breeze. Maintain straight architectural geometry and readable dark foliage above for white copy added separately. No people, cars, signs, logos, generated text, music or dialogue.",
+      "qa": "柱・屋根・窓が固定。文字用の暗い上部が維持される。"
+    }
+  ],
+  "still_prompts": [
+    {
+      "id": "07_lodge_still",
+      "references": [],
+      "prompt": "Use case: ads-marketing. Asset type: still photograph for 23-27 seconds and location reference for a seaside lodge commercial. ONE photorealistic natural live-action film still for restrained Japanese travel advertising. Vertical exact 9:16 frame. Natural skin and fabric, subdued film color, no excessive saturation, no fantasy except when explicitly requested, no text, no typography, no logo, no watermark, no borders or collage. An intimate unbranded Japanese seaside guesthouse room, warm pale oak floor, low wooden armchair with cream linen cushion, white linen curtain at a very large open sliding window, outside a real quiet blue-gray ocean and soft morning sky. No people, no luggage, no other buildings, no busy decoration. Photography from inside, window and chair occupy lower two-thirds; upper-left includes a broad quiet warm cream wall for dark text to be added later. Delicate morning sunlight from upper camera-left. Tactile linen and wood, calm understated premium hospitality, believable modest scale rather than luxury palace. No generated words.",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "13_coffee_detail",
+      "references": [
+        "07_lodge_still"
+      ],
+      "prompt": "Use case: ads-marketing. Asset type: optional atmosphere-only insert and visual reference for text-to-video. Input image 1 is seaside lodge materials, room lighting and ocean view reference. ONE photorealistic natural live-action film still for restrained Japanese travel advertising. Vertical exact 9:16 frame. Natural skin and fabric, subdued film color, no excessive saturation, no fantasy except when explicitly requested, no text, no typography, no logo, no watermark, no borders or collage. Close-up of a simple off-white ceramic coffee cup filled with dark coffee on a warm pale-oak bedside table, delicate steam barely visible against soft background. Blurred linen curtain and blue-gray sea behind. Only the cup, table and linen are in focus; no human hands, no utensils, no readable text, no branding. Soft morning side-light upper-left, tactile glaze, restrained cinematic editorial detail, no over-stylized steam or splash. Cup in lower central area, generous calm negative space above.",
+      "tool": "built-in image_gen"
+    }
+  ]
+}
